@@ -1,4 +1,7 @@
-.header nav{
-  display: inline-block;
-  
+.header{
+  background-color: rgb(215, 160, 231);
+} 
+
+.header nav ul{
+  display:inline-flex;
 }
