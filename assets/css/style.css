@@ -12,6 +12,50 @@
 .header nav ul{
   display:flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 25px;
   padding-block: 20px;
+  font-size: 25px;
 }
+
+.box{
+  border-style:dotted;
+  border-width: 1px;
+  padding: 25px;
+  margin: 0px;
+  background-color: #c3cde6;
+  position:relative
+}
+
+.profilepic{
+  width: 45%;
+}
+
+.card{
+  border-style: dotted;
+  border-width: 1px;
+  padding:10px;
+  margin:20px;
+  background-color: #E6C3CD;
+  position:absolute;
+    top: 20px;
+    right: 0%;
+}
+
+.h2{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+/*figure it out later
+.footer{
+  background-color: #cdc3e6;
+  font-family: Optium,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding-block: 20px;
+  font-size: 15px;
+}
+
+
