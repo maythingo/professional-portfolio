@@ -57,9 +57,11 @@
 
 .paragraph {
   font-family: Optima,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
 }
 
 .funfact{
+  line-height: 2;
   font-size:15px;
   font-family: Optima,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -82,5 +84,15 @@
   padding-block: 15px;
   font-size: 15px;
 }
+
+@media only screen and (max-width:700px){
+  .box{
+    background-color: #CDE6C3;
+  }
+  .header,.footer{
+    background-color: #957DAD;
+  }
+}
+
 
 
