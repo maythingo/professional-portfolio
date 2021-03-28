@@ -18,27 +18,35 @@
 }
 
 .box{
+  flex-direction: column;
+  flex-wrap: wrap;
   border-style:dotted;
   border-width: 1px;
   padding: 25px;
   margin: 0px;
   background-color: #c3cde6;
-  position:relative
 }
 
-.profilepic{
+
+.img{
   width: 45%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
 }
 
 .card{
   border-style: dotted;
   border-width: 1px;
+  flex-wrap: wrap;
   padding:10px;
   margin:20px;
   background-color: #E6C3CD;
-  position:absolute;
-    top: 20px;
-    right: 0%;
 }
 
 .h2{
@@ -47,14 +55,31 @@
   line-height: 2;
 }
 
-/*figure it out later
+.paragraph {
+  font-family: Optima,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.funfact{
+  font-size:15px;
+  font-family: Optima,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .footer{
   background-color: #cdc3e6;
   font-family: Optium,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display:flex;
+  display:flex:inline-flex;
   justify-content: space-between;
   margin: 15px;
   padding-block: 20px;
+  font-size: 15px;
+}
+
+.footer ul li{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-block: 15px;
   font-size: 15px;
 }
 

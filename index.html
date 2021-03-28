@@ -14,26 +14,41 @@
         <h1>Tuong-Van Ngo</h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact Me">Contact Me</a></li>
+                
             </ul>
         </nav>
     </header>
 
-    <!--photo here-->
-    <ahref> </ahref>
-
     <body>
         <section class=box>
-            <img src="assets/images/IMG_0154.JPG" alt "Placeholder" class="profilepic"/>
             <article class=card>
-                <h2 class=h2>📣 About Me</h2>
-                    <p>Hello! I am currently an Agricultural Tech at the California Department of Agriculture. </p>
+                <img src="assets/images/IMG_0154.JPG" class="img" id="About Me"/>
+                <h2 class=h2 >📣 About Me</h2>
+                    <p class="paragraph">Hello! I am currently an Agricultural Tech at the California Department of Agriculture (CDFA). 
+                        I graduated from UC Irvine in 2019 with a B.S. Biological Science, and since then I started working in the Food and Agriculture sector.
+                        With my current job at the CDFA, I am doing field work around Orange County detecting invasive insects.
+                        Although I'm doing well in my current job, I am always yearning to diversify my skills and endeavor into new career paths.
+                        I joined Bootcamp because I know how technology is always evolving and learning coding would be an investment worthwhile for my future career. 
+                    </p>
+                    <p class="funfact">
+                        <b>Fun Fact:</b> I enjoy playing games such as Animal Crossing and Maplestory.
+                    </p>
             </article>
-            <article>
-                <h2 class=h2> </h2>
+            <article class=card>
+                <h2 class=h2 id="Work">Work</h2>
+                    <img src="assets/images/image-blog-refactoring-code.jpeg" class="img"/>
+                    <figcaption>Refactor Code</figcaption>
+
+            </article>
+            <article class=card>
+                <h2 id="Resume">Resume</h2>
+                <img src="assets/images/resume-pencil-close-up-45350692.jpeg" class="img"/>
+                <!--fix pdf link-->
+                <a href="assets/Resume/Resume 2020.pdf" target="_blank"></a>
 
             </article>
             
@@ -43,10 +58,12 @@
     </section>
 
     <footer class=footer>
+        <h2 id="Contact Me">Contact Me</h2>
         <ul>
             <li>657-372-9405</li>
             <li><a href="https://github.com/maythingo" target="_blank">Github</a></li>
             <li><a href="https://www.linkedin.com/in/tuong-van-ngo-0a0583201/" target="_blank">Linkedin</a></li>
+            <li><a href= "mailto: maythingo@aim.com">Email</a></li>
         </ul>
     </footer>
 </body>
